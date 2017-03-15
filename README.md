@@ -6,4 +6,6 @@ Tested Electron versions:
 * 1.6.3
 
 Tested Windows versions:
-* Windows 10 Pro Insider Preview, Build 15048.rs2_release.170228-1522
+* Windows 10 Pro Insider Preview, version 1607 build 15048.0
+* Windows 10 Pro, version 1607 build 14393.693
+* Windows 8.1 Pro
