@@ -1,4 +1,4 @@
-This repository demonstrates an issue with Electron where connecting to a named pipe on Windows doesn't work correcty.
+This repository demonstrates an issue with Electron where connecting to a named pipe on Windows doesn't work correctly in the Renderer process.
 More information will follow.
 
 Tested Electron versions:
