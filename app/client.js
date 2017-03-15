@@ -21,5 +21,18 @@ module.exports = {
       console.error(e);
       console.timeEnd('socket_port');
     });
+  },
+
+  timeRandomPortConnect: function() {
+    console.time('socket_portrandom');
+    var port = parseInt(Math.random() * 65535, 10);
+    var socket_portrandom = require('net').createConnection(port, function() {
+      console.log("Socket connected (port " + port + ")");
+      console.timeEnd('socket_portrandom');
+    });
+    socket_portrandom.on('error', function(e){
+      console.error(e);
+      console.timeEnd('socket_portrandom');
+    });
   }
 }
